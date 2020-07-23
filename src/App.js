@@ -1,14 +1,19 @@
 import React from 'react';
 import './App.css';
-import Navbar from "./components/Navbar";
+import PortfolioNav from "./components/PortfoioNav";
 import About from "./components/About";
-// import 'react-bulma-components/basic/react-bulma-components.min.css';
-// import { Button } from 'react-bulma-components/full';
+import NameNav from "./components/NameNav";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faHamburger } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faHamburger);
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <PortfolioNav/>
+      <NameNav/>
       <About/>
     </div>
   );

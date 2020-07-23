@@ -3,21 +3,22 @@ import React from "react";
 function About() {
   return (
     <div>
-      <div id="about" classNameName="container">
-        <div classNameName="column is-6">
-          <div classNameName="card">
-            <div classNameName="card-content">
+      <div id="about" className="container">
+          <div className="row">
+        <div className="column is-6">
+          <div className="card">
+            <div className="card-content">
               <hr />
-              <div classNameName="clearfix">
+              <div className="clearfix">
                 <img
-                  classNameName="photo"
+                  className="photo"
                   src="./"
                   data-still="../public/images/Dan_Clipper_twoFirst.gif"
                   data-animate="../public/images/Dan_Clipper_rev.gif"
                   data-state="still"
                   alt="Dan Weikart on a boat"
                 />
-                <section classNameName="AboutMeText">
+                <section className="AboutMeText">
                   <p>
                     Hello. I am an analytical chemist who is looking to become a
                     web developer. My current career requires me to employ my
@@ -42,38 +43,7 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="card">
-        <header className="card-header">
-          <p className="card-header-title">Component</p>
-          <a href="#" className="card-header-icon" aria-label="more options">
-            <span className="icon">
-              <i className="fas fa-angle-down" aria-hidden="true"></i>
-            </span>
-          </a>
-        </header>
-        <div className="card-content">
-          <div className="content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            nec iaculis mauris.
-            <a href="#">@bulmaio</a>. <a href="#">#css</a>{" "}
-            <a href="#">#responsive</a>
-            <br />
-            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-          </div>
         </div>
-        <footer className="card-footer">
-          <a href="#" className="card-footer-item">
-            Save
-          </a>
-          <a href="#" className="card-footer-item">
-            Edit
-          </a>
-          <a href="#" className="card-footer-item">
-            Delete
-          </a>
-        </footer>
       </div>
     </div>
   );
