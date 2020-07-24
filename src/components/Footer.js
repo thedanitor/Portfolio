@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Footer() {
     return (
-        <footer id="contact" class="page-footer font-small">
-        <div class="container">
-          <div class="footer-copyright text-center py-3">
+        <footer id="contact" className="page-footer font-small">
+        <div className="container">
+          <div className="footer-copyright text-center py-3">
 
             <h2>Contact</h2>
             <FontAwesomeIcon icon="envelope-open-text"/>
@@ -19,7 +19,7 @@ function Footer() {
               >
                   <FontAwesomeIcon icon="envelope-open-text"/>
                   <i
-                class="fas fa-envelope-open-text"
+                className="fas fa-envelope-open-text"
                 data-toggle="tooltip"
                 data-placement="top"
                 title="Email"
@@ -28,7 +28,7 @@ function Footer() {
                   </a>
             <a href="https://github.com/thedanitor" target="_blank"
               ><i
-                class="fab fa-github"
+                className="fab fa-github"
                 data-toggle="tooltip"
                 data-placement="top"
                 title="Github"
@@ -38,7 +38,7 @@ function Footer() {
               href="https://www.linkedin.com/in/dan-weikart-64702a1a3/"
               target="_blank"
               ><i
-                class="fab fa-linkedin"
+                className="fab fa-linkedin"
                 data-toggle="tooltip"
                 data-placement="top"
                 title="linkedIn"
@@ -49,7 +49,7 @@ function Footer() {
               target="_blank"
             >
               <i
-                class="far fa-file-pdf"
+                className="far fa-file-pdf"
                 data-toggle="tooltip"
                 data-placement="top"
                 title="Resume"
