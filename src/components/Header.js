@@ -12,7 +12,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 //   content: "\f805",
 // };
 
-function PortfolioNav() {
+function Header() {
   return (
 
       <Navbar
@@ -57,4 +57,4 @@ function PortfolioNav() {
   );
 }
 
-export default PortfolioNav;
+export default Header;

@@ -1,20 +1,24 @@
 import React from 'react';
 import './App.css';
-import PortfolioNav from "./components/PortfoioNav";
+import Header from "./components/Header";
 import About from "./components/About";
 import NameNav from "./components/NameNav";
+import Footer from "./components/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faHamburger } from '@fortawesome/free-solid-svg-icons';
+import { faHamburger, faEnvelopeOpenText, faFilePdf } from '@fortawesome/free-solid-svg-icons';
+// import { faFilePdf } from "@fortawesome/free-regular-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
 
-library.add(faHamburger);
+library.add(fab, faHamburger, faEnvelopeOpenText, faFilePdf);
 
 function App() {
   return (
     <div className="App">
-      <PortfolioNav/>
+      <Header/>
       <NameNav/>
       <About/>
+      <Footer/>
     </div>
   );
 }
