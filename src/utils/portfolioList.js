@@ -40,55 +40,62 @@ const aqirProject = new ProjectData(
 );
 
 const burgerProject = new ProjectData(
-    "Add-A-Burger",
-    burgerImg,
-    burgerWide,
-    "HTML / CSS / JavaScript / MySQL / Node / Express",
-    "This website allows the user to enter a burger and virtually eat it.",
-    "https://desolate-lake-88322.herokuapp.com/",
-    "https://github.com/thedanitor/burger"
-  );
+  "Add-A-Burger",
+  burgerImg,
+  burgerWide,
+  "HTML / CSS / JavaScript / MySQL / Node / Express",
+  "This website allows the user to enter a burger and virtually eat it.",
+  "https://desolate-lake-88322.herokuapp.com/",
+  "https://github.com/thedanitor/burger"
+);
 
-  const employeeRosterProject = new ProjectData(
-    "Employee Roster",
-    employeeRosterImg,
-    employeeRosterWide,
-    "HTML / CSS / JavaScript / Node",
-    "Once installed, this command line application prompts the user with questions to build an employee roster. The roster is then rendered to an HTML page.",
-    "",
-    "https://github.com/thedanitor/Employee_Roster"
-  );
+const employeeRosterProject = new ProjectData(
+  "Employee Roster",
+  employeeRosterImg,
+  employeeRosterWide,
+  "HTML / CSS / JavaScript / Node",
+  "Once installed, this command line application prompts the user with questions to build an employee roster. The roster is then rendered to an HTML page.",
+  "",
+  "https://github.com/thedanitor/Employee_Roster"
+);
 
-  const fearSetterProject = new ProjectData(
-    "Fear Setter",
-    fearSettingImg,
-    fearSettingWide,
-    "HTML / CSS / JavaScript / jQuery / UIkit",
-    "AQIR is an exclusive retail website that allows users to buy and sell products from the comfort of their home. Just sign up, login, and add or sell products with a community of users from around the world.",
-    "https://thedanitor.github.io/Project-1_Fear-Setter/",
-    "https://github.com/thedanitor/Project-1_Fear-Setter"
-  );
+const fearSetterProject = new ProjectData(
+  "Fear Setter",
+  fearSettingImg,
+  fearSettingWide,
+  "HTML / CSS / JavaScript / jQuery / UIkit",
+  "AQIR is an exclusive retail website that allows users to buy and sell products from the comfort of their home. Just sign up, login, and add or sell products with a community of users from around the world.",
+  "https://thedanitor.github.io/Project-1_Fear-Setter/",
+  "https://github.com/thedanitor/Project-1_Fear-Setter"
+);
 
-  const weatherProject = new ProjectData(
-    "Weather Dashboard",
-    weatherDashboardImg,
-    weatherDashboardWide,
-    "HTML / CSS / JavaScript / jQuery",
-    "Search for current weather conditions and forecast for the next 5 days in any city.",
-    "https://thedanitor.github.io/Weather_Dashboard/",
-    "https://github.com/thedanitor/Weather_Dashboard"
-  );
+const weatherProject = new ProjectData(
+  "Weather Dashboard",
+  weatherDashboardImg,
+  weatherDashboardWide,
+  "HTML / CSS / JavaScript / jQuery",
+  "Search for current weather conditions and forecast for the next 5 days in any city.",
+  "https://thedanitor.github.io/Weather_Dashboard/",
+  "https://github.com/thedanitor/Weather_Dashboard"
+);
 
-  const dayPlannerProject = new ProjectData(
-    "Workday Scheduler App",
-    dayPlannerImg,
-    dayPlannerWide,
-    "HTML / CSS / JavaScript",
-    "Simple workday planner app. Save meetings to local storage.",
-    "https://thedanitor.github.io/Work_Day_Scheduler/",
-    "https://github.com/thedanitor/Work_Day_Scheduler"
-  );
+const dayPlannerProject = new ProjectData(
+  "Workday Scheduler App",
+  dayPlannerImg,
+  dayPlannerWide,
+  "HTML / CSS / JavaScript",
+  "Simple workday planner app. Save meetings to local storage.",
+  "https://thedanitor.github.io/Work_Day_Scheduler/",
+  "https://github.com/thedanitor/Work_Day_Scheduler"
+);
 
-let portfolioList = [aqirProject, burgerProject, employeeRosterProject, fearSetterProject, weatherProject, dayPlannerProject];
+let portfolioList = [
+  aqirProject,
+  burgerProject,
+  employeeRosterProject,
+  fearSetterProject,
+  weatherProject,
+  dayPlannerProject,
+];
 
 export default portfolioList;

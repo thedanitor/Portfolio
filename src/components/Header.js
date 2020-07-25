@@ -6,12 +6,6 @@ import {
 } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-
-// const hamburgerBtnStyle = {
-//   fontFamily: "FontAwesome",
-//   content: "\f805",
-// };
-
 function Header() {
   return (
 

@@ -1,21 +1,32 @@
-import React from 'react'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import linkList from "../utils/linkList";
+import Contact from "./Contact";
 
 function Footer() {
-    return (
-        <footer id="contact" className="page-footer font-small">
-        <div className="container">
-          <div className="footer-copyright text-center py-3">
-
-            <h2>Contact</h2>
-            <FontAwesomeIcon icon="envelope-open-text"/>
-            <FontAwesomeIcon icon="file-pdf"/>
+  return (
+    <footer id="contact" className="page-footer font-small">
+      <div className="container">
+        <div className="footer-copyright text-center py-3">
+          <h2>Contact</h2>
+          {linkList.map((link, index) => {
+            return (
+              <Contact
+                url={link.url}
+                iconName={link.iconName}
+                iconType={link.iconType}
+                name={link.name}
+                color={link.color}
+                key={index}
+              />
+            );
+          })}
+          {/* <FontAwesomeIcon icon={["fas", "envelope-open-text"]}/>
+            <FontAwesomeIcon icon={["fas", "file-pdf"]}/>
             <FontAwesomeIcon icon={["fab","github"]}/>
-            <FontAwesomeIcon icon={["fab", "linkedin"]}/>
+            <FontAwesomeIcon icon={["fab", "linkedin"]}/> */}
 
-
-
-            {/* <a href="mailto: danmweikart@gmail.com" target="_blank"
+          {/* <a href="mailto: danmweikart@gmail.com" target="_blank"
               >
                   <FontAwesomeIcon icon="envelope-open-text"/>
                   <i
@@ -55,11 +66,11 @@ function Footer() {
                 title="Resume"
               ></i>
             </a> */}
-            <p>© 2020 Copyright: Dan Weikart</p>
-          </div>
+          <p>© 2020 Copyright: Dan Weikart</p>
         </div>
-      </footer>
-    )
+      </div>
+    </footer>
+  );
 }
 
 export default Footer;
