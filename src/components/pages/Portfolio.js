@@ -1,6 +1,6 @@
 import React from 'react'
-import Project from "./Project";
-import portfolioList from "../utils/portfolioList"
+import Project from "../Project";
+import portfolioList from "../../utils/portfolioList"
 
 function Portfolio() {
     return (

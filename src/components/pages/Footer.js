@@ -1,7 +1,7 @@
 import React from "react";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import linkList from "../utils/linkList";
-import Contact from "./Contact";
+// import linkList from "../utils/linkList";
+import Contact from "../Contact";
 
 function Footer() {
   return (
@@ -9,18 +9,18 @@ function Footer() {
       <div className="container">
         <div className="footer-copyright text-center py-3">
           <h2>Contact</h2>
-          {linkList.map((link, index) => {
-            return (
+          {/* {linkList.map((link, index) => { */}
+            {/* return ( */}
               <Contact
-                url={link.url}
-                iconName={link.iconName}
-                iconType={link.iconType}
-                name={link.name}
-                color={link.color}
-                key={index}
+                // url={link.url}
+                // iconName={link.iconName}
+                // iconType={link.iconType}
+                // name={link.name}
+                // color={link.color}
+                // key={index}
               />
-            );
-          })}
+            {/* ); */}
+          {/* })} */}
           {/* <FontAwesomeIcon icon={["fas", "envelope-open-text"]}/>
             <FontAwesomeIcon icon={["fas", "file-pdf"]}/>
             <FontAwesomeIcon icon={["fab","github"]}/>

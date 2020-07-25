@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Col, Container, Modal, Button } from "react-bootstrap";
+import { Col, Container, Button } from "react-bootstrap";
 import ProjectModal from "./ProjectModal";
 
 function Project({
@@ -31,7 +31,7 @@ function Project({
             {name}
           </div>
           <Button
-            style={btnStyle}
+            style={projectBtnStyle}
             type="submit"
             // className="portfoliobtn btn btn-secondary btn-lg"
             // data-toggle="modal"
@@ -53,27 +53,6 @@ function Project({
         handleShow={handleShow}
         show={show}
       />
-      {/* <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>{name}</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <img src={imageLarge} alt={name} />
-        </Modal.Body>
-        <Modal.Footer>
-          <h2>{tech}</h2>
-          <h3>{description}</h3>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={webUrl}>
-            View Website
-          </Button>
-          <Button variant="primary" onClick={githubUrl}>
-            GIthub Repository
-          </Button>
-        </Modal.Footer>
-      </Modal> */}
     </Container>
   );
 }
@@ -111,20 +90,24 @@ const overlayStyle = {
 };
 
 const overlayTextStyle = {
-  color: "black",
-  fontSize: "16px",
-  fontWeight: "bold",
-  position: "absolute",
-  width: "70%",
-  top: "10%",
-  left: "15%",
-  textAlign: "center",
-};
+    color: "black",
+    fontSize: "16px",
+    fontWeight: "bold",
+    position: "absolute",
+    width: "70%",
+    top: "10%",
+    left: "15%",
+    textAlign: "center"
+}
 
-const btnStyle = {
+const projectBtnStyle = {
   backgroundColor: "#2d882d",
   borderColor: "#2d882d",
   color: "#ffffff",
+  position: "absolute",
+  top: "60%",
+  left: "50%",
+  textAlign: "center",
 };
 
 export default Project;
