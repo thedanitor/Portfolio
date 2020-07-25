@@ -3,6 +3,45 @@ import { Col, Container, Row } from "react-bootstrap";
 import ProjectModal from "./ProjectModal";
 import styled from "styled-components";
 
+const imgContainerStyle = {
+    position: "relative",
+    opacity: 1,
+    padding: "20px",
+  };
+  
+  const imgStyle = {
+    // width: "50%",
+    opacity: 1,
+    display: "block",
+    width: "100%",
+    height: "auto",
+    border: "solid black",
+  };
+
+  
+const overlayTextStyle = {
+    color: "black",
+    fontSize: "16px",
+    fontWeight: "bold",
+    position: "absolute",
+    paddingTop: "50%",
+    width: "70%",
+    top: "10%",
+    left: "15%",
+    textAlign: "center"
+}
+
+const projectBtnStyle = {
+  backgroundColor: "#2d882d",
+  borderColor: "#2d882d",
+  color: "#ffffff",
+  position: "absolute",
+  top: "60%",
+  left: "50%",
+  textAlign: "center",
+};
+
+
 const StyledOverlay = styled.div`
 position: absolute;
 top: 0;
@@ -131,20 +170,7 @@ function Project({
   );
 }
 
-const imgContainerStyle = {
-  position: "relative",
-  opacity: 1,
-  padding: "20px",
-};
 
-const imgStyle = {
-  // width: "50%",
-  opacity: 1,
-  display: "block",
-  width: "100%",
-  height: "auto",
-  border: "solid black",
-};
 
 // const overlayStyle = {
 //   position: "absolute",
@@ -162,26 +188,5 @@ const imgStyle = {
 //   // -ms-transition: "all 500ms ease-in-out",
 //   zIndex: 2,
 // };
-
-const overlayTextStyle = {
-    color: "black",
-    fontSize: "16px",
-    fontWeight: "bold",
-    position: "absolute",
-    width: "70%",
-    top: "10%",
-    left: "15%",
-    textAlign: "center"
-}
-
-const projectBtnStyle = {
-  backgroundColor: "#2d882d",
-  borderColor: "#2d882d",
-  color: "#ffffff",
-  position: "absolute",
-  top: "60%",
-  left: "50%",
-  textAlign: "center",
-};
 
 export default Project;

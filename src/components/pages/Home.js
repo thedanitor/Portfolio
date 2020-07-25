@@ -1,7 +1,7 @@
 import React from "react";
 import About from "./About";
-import Portfolio from "./Portfolio";
-import Footer from "./Footer";
+import Portfolio from "./Portfolio/";
+import Contact from "./Contact/";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Home() {
@@ -9,7 +9,7 @@ function Home() {
     <div className="Home">
       <About />
       <Portfolio />
-      <Footer />
+      <Contact />
     </div>
   );
 }

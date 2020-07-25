@@ -1,19 +1,26 @@
 import React from 'react'
-import Project from "../Project";
-import portfolioList from "../../utils/portfolioList"
+import Project from "../../Project";
+import portfolioList from "../../../utils/portfolioList";
+import {
+  Container,
+  Row,
+  Col,
+  Card,
+
+} from "react-bootstrap";
 
 function Portfolio() {
     return (
-        <div id="portfolio" className="container">
-      <div className="row">
-        <div className="col-lg-12">
-          <div className="card">
+        <Container id="portfolio" className="container">
+      <Row className="row">
+        <Col className="col-lg-12">
+          <Card className="card">
             <div className="card-body">
               <div>
                 <h1 className="heading">Portfolio</h1>
               </div>
               <hr />
-              <div className="row">
+              <Row className="row">
                   {
                   portfolioList.map((proj, index) => {
                       return <Project
@@ -30,12 +37,12 @@ function Portfolio() {
                   }
                   
 
-              </div>
+              </Row>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
+          </Card>
+        </Col>
+      </Row>
+    </Container>
 
     )
 }
