@@ -21,7 +21,7 @@ function Header() {
             aria-controls="reponsive-navbar-nav"
             className="ml-auto"
           >
-            <FontAwesomeIcon icon="hamburger" />
+            <FontAwesomeIcon icon="hamburger" style={burgerStyle}/>
           </Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="navbar-nav ml-auto">
@@ -49,6 +49,10 @@ function Header() {
       </Navbar>
 
   );
+}
+
+const burgerStyle = {
+  color: "#fef728"
 }
 
 export default Header;

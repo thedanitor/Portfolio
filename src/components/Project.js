@@ -1,6 +1,70 @@
 import React, { useState } from "react";
-import { Col, Container, Button } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import ProjectModal from "./ProjectModal";
+import styled from "styled-components";
+
+const StyledOverlay = styled.div`
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: all 500ms ease-in-out;
+-webkit-transition: all 500ms ease-in-out;
+-moz-transition: all 500ms ease-in-out;
+-o-transition: all 500ms ease-in-out;
+-ms-transition: all 500ms ease-in-out;
+z-index: 2;
+`
+
+const StyledButton = styled.button`
+position: absolute;
+top: 60%;
+left: 50%;
+text-align: center;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+background-color: #2d882d;
+  border-color: #2d882d;
+  color: #ffffff;
+  :hover {
+    background-color: #ffffff;
+    border-color: #777777;
+    color: #2d882d;
+  }
+`
+
+const StyledImgContainer = styled.div`
+:hover .overlay {
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 500ms;
+  }
+
+  :hover .text {
+    opacity: 1;
+    font-size: 25px;
+    transition-delay: 0s;
+    transition-duration: 500ms;
+    top: 35%;
+    left: 15%;
+  }
+
+  :hover .portfoliobtn {
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 500ms;
+  }
+
+  :hover .img {
+    opacity: 0.2;
+  }
+`
+
 
 function Project({
   name,
@@ -16,32 +80,41 @@ function Project({
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+
+
+
   return (
     <Container>
-      <Col md={{ span: 6 }} className="imgContainer" style={imgContainerStyle}>
+        <Row>
+      <Col md={{ span: 6 }}>
+          <StyledImgContainer  className="imgContainer" style={imgContainerStyle}>
         <img
-          id="aqir"
+          id={name}
           src={image}
           className="img fluid float-left"
           alt={name}
           style={imgStyle}
         />
-        <div className="overlay" style={overlayStyle}>
-          <div className="text" sylte={overlayTextStyle}>
+        <StyledOverlay className="overlay" 
+        // style={overlayStyle}
+        >
+          <div className="text" style={overlayTextStyle}>
             {name}
           </div>
-          <Button
+          <StyledButton
             style={projectBtnStyle}
             type="submit"
-            // className="portfoliobtn btn btn-secondary btn-lg"
+            className="portfoliobtn btn btn-secondary btn-lg"
             // data-toggle="modal"
             // data-target="#aqirModal"
             onClick={handleShow}
           >
             Explore
-          </Button>
-        </div>
+          </StyledButton>
+        </StyledOverlay>
+        </StyledImgContainer>
       </Col>
+      </Row>
       <ProjectModal
         name={name}
         imageLarge={imageLarge}
@@ -53,6 +126,7 @@ function Project({
         handleShow={handleShow}
         show={show}
       />
+      
     </Container>
   );
 }
@@ -72,22 +146,22 @@ const imgStyle = {
   border: "solid black",
 };
 
-const overlayStyle = {
-  position: "absolute",
-  top: 0,
-  bottom: 0,
-  left: 0,
-  right: 0,
-  height: "100%",
-  width: "100%",
-  opacity: 1,
-  transition: "all 500ms ease-in-out",
-  // -webkit-transition: "all 500ms ease-in-out",
-  // -moz-transition: "all 500ms ease-in-out",
-  // -o-transition: "all 500ms ease-in-out",
-  // -ms-transition: "all 500ms ease-in-out",
-  zIndex: 2,
-};
+// const overlayStyle = {
+//   position: "absolute",
+//   top: 0,
+//   bottom: 0,
+//   left: 0,
+//   right: 0,
+//   height: "100%",
+//   width: "100%",
+//   opacity: 1,
+//   transition: "all 500ms ease-in-out",
+//   // -webkit-transition: "all 500ms ease-in-out",
+//   // -moz-transition: "all 500ms ease-in-out",
+//   // -o-transition: "all 500ms ease-in-out",
+//   // -ms-transition: "all 500ms ease-in-out",
+//   zIndex: 2,
+// };
 
 const overlayTextStyle = {
     color: "black",
