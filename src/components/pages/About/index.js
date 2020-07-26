@@ -1,21 +1,28 @@
 import React from "react";
+import {Container, Row, Col, Card } from "react-bootstrap";
+import "./style.css";
+import danPhotoStill from "../../../assets/images/Dan_Clipper_twoFirst.gif";
+import danPhotoAnimate from "../../../assets/images/Dan_Clipper_rev.gif"
 
 function About() {
+
+  const handleStill = (e) => e.currentTarget.src = danPhotoStill
+  const handleAnimate = (e) => e.currentTarget.src = danPhotoAnimate
+
   return (
-    <div>
-      <div id="about" className="container">
-        <div className="row">
-          <div className="column is-6">
-            <div className="card">
+ 
+      <Container id="about" className="container">
+        <Row className="row">
+          <Col className="column is-6">
+            <Card className="card">
               <div className="card-content">
                 <hr />
                 <div className="clearfix">
                   <img
                     className="photo"
-                    src="./"
-                    data-still="../public/images/Dan_Clipper_twoFirst.gif"
-                    data-animate="../public/images/Dan_Clipper_rev.gif"
-                    data-state="still"
+                    src={danPhotoStill}
+                    onMouseEnter={handleAnimate}
+                    onMouseLeave={handleStill}
                     alt="Dan Weikart on a boat"
                   />
                   <section className="AboutMeText">
@@ -42,11 +49,11 @@ function About() {
                   </section>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+
   );
 }
 

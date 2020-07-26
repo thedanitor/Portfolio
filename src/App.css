@@ -1,0 +1,24 @@
+.App {
+    margin: 0;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+    background-image: linear-gradient(
+      #000000,
+      #080d0d,
+      #0f1a1a,
+      #172727,
+      #1e3434,
+      #264141,
+      #2d4e4e,
+      #355b5b,
+      #3d6767,
+      #447474
+    );
+    color: #2d882d;
+    font-family: "Quantico", sans-serif;
+    font-size: 20px;
+  }

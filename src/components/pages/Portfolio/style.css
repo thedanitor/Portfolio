@@ -1,3 +1,10 @@
+ /* {
+  color: #2d882d;
+  font-family: "Quantico", sans-serif;
+  font-size: 20px;
+} */
+
+
 .container .card {
     max-width: 960px;
     margin-top: 50px;
@@ -5,4 +12,10 @@
     border: none;
   }
 
-  
+  .heading {
+    font-weight: bold;
+    padding: 0px 20px;
+    color: #2d882d;
+    font-family: "Quantico", sans-serif;
+    font-size: 20px;
+  }
