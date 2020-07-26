@@ -1,0 +1,38 @@
+.btn {
+    background-color: #2d882d !important;
+    border-color: #2d882d !important;
+    color: #ffffff !important;
+  }
+
+  .btn:hover {
+    background-color: #ffffff !important;
+    border-color: #777777 !important;
+    color: #2d882d !important;
+  }
+
+  .modal-content {
+    background-image: linear-gradient(
+      #000000,
+      #080d0d,
+      #0f1a1a,
+      #172727,
+      #1e3434,
+      #264141,
+      #2d4e4e,
+      #355b5b,
+      #3d6767,
+      #447474
+    );
+  }
+  
+  .modal-title {
+    color: #2d882d;
+    font-weight: bold;
+  }
+  
+  .modal-footer {
+    color: black;
+    font-weight: bold;
+  }
+  
+  

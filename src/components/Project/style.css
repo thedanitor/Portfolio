@@ -1,0 +1,91 @@
+.btn {
+    background-color: #2d882d;
+    border-color: #2d882d;
+    color: #ffffff;
+  }
+  .btn:hover {
+    background-color: #ffffff;
+    border-color: #777777;
+    color: #2d882d;
+  }
+
+  .imgContainer {
+    position: relative;
+    opacity: 1;
+    padding: 20px;
+  }
+  
+  .img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: solid black;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 500ms ease-in-out;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    z-index: 2;
+  }
+  .imgContainer:hover .overlay {
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 500ms;
+  }
+  
+  .imgContainer:hover .text {
+    opacity: 1;
+    font-size: 25px;
+    transition-delay: 0s;
+    transition-duration: 500ms;
+    top: 35%;
+    left: 15%;
+  }
+  
+  .imgContainer:hover .portfoliobtn {
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 500ms;
+  }
+  
+  .imgContainer:hover .img {
+    opacity: 0.2;
+  }
+  
+  .overlay .text {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    width: 70%;
+    top: 10%;
+    left: 15%;
+    text-align: center;
+  }
+  
+  .overlay .portfoliobtn {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    text-align: center;
+  
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .card-title {
+    color: #2d882d;
+    font-weight: bold;
+  }
