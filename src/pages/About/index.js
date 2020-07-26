@@ -1,8 +1,8 @@
 import React from "react";
 import {Container, Row, Col, Card } from "react-bootstrap";
 import "./style.css";
-import danPhotoStill from "../../../assets/images/Dan_Clipper_twoFirst.gif";
-import danPhotoAnimate from "../../../assets/images/Dan_Clipper_rev.gif"
+import danPhotoStill from "../../assets/images/Dan_Clipper_twoFirst.gif";
+import danPhotoAnimate from "../../assets/images/Dan_Clipper_rev.gif";
 
 function About() {
 

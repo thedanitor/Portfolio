@@ -1,7 +1,7 @@
 import React from 'react'
 import "./style.css"
-import Project from "../../Project/";
-import portfolioList from "../../../utils/portfolioList";
+import Project from "../../components/Project";
+import portfolioList from "../../utils/portfolioList";
 import {
   Container,
   Row,

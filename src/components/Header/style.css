@@ -4,11 +4,6 @@ i {
   padding-right: 10px;
 }
 
-Container {
-  /* background: rgba(0, 0, 0, 0.001) !important; */
-  background: #000000 !important;
-}
-
 .nav-link {
   color: #2d882d !important;
 }
@@ -24,15 +19,12 @@ a {
   font-weight: bold;
 }
 
-/* .navbar {
-  background: rgba(0, 0, 0, 0.001) !important;
-} */
-
 #danFont {
   color: #2d882d;
-}
-
-#danFont {
+  font-family: "Press Start 2P", cursive;
+  padding: 0px 25px;
+  font-size: 40px;
+  font-weight: bold;
   overflow: hidden;
   border-right: 0.15em solid #2d882d;
   white-space: nowrap;
@@ -70,9 +62,26 @@ a {
   }
 }
 
-.navbar-brand {
-  font-family: "Press Start 2P", cursive;
-  padding: 0px 25px;
-  font-size: 40px;
-  font-weight: bold;
+.nav-item {
+  animation: appear 10s ease-out 2s, noshow 2s;
+}
+
+@keyframes appear {
+  from,
+  to {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes noshow {
+  from,
+  to {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }

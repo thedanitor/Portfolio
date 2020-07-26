@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import ContactLinks from "../../ContactLinks";
+import ContactLinks from "../../components/ContactLinks";
 import { Container } from "react-bootstrap";
 
 function Contact() {

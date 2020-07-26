@@ -9,7 +9,6 @@ function Header() {
     <Navbar
       collapseOnSelect
       expand="lg"
-      // bg="light"
       id="menu"
       className="navbar navbar-default fixed-top ml-auto navbar-expand-lg"
     >

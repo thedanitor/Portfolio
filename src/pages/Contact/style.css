@@ -1,0 +1,39 @@
+#contact {
+    color: black;
+    background-color: rgba(119, 119, 119, 0.5);
+    bottom: 0;
+    width: 100%;
+    height: 160px;
+  }
+
+  .footer-copyright {
+    color: black;
+  }
+  
+  footer p {
+    padding-top: 10px;
+  }
+
+  #contact {
+    animation: appear 10s ease-out 2s, noshow 2s;
+  }
+  
+  @keyframes appear {
+    from,
+    to {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes noshow {
+    from,
+    to {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
