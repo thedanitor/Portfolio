@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import {HashRouter as Router, Route} from "react-router-dom";
 import './App.css';
-import Header from "./components/Header";
+import Header from "./components/Header/";
 import About from "./components/pages/About/";
-import NameNav from "./components/NameNav";
+// import NameNav from "./components/NameNav/";
 import Portfolio from "./components/pages/Portfolio/";
 import Home from "./components/pages/Home";
 import Contact from "./components/pages/Contact/";
@@ -27,14 +27,13 @@ class App extends Component {
 render() {
   return (
     <Router>
-    <div className="App">
+    {/* <div className="App"> */}
       <Header/>
-      <NameNav/>
       <Route exact path ="/" component={Home}/>
       <Route exact path ="/about" component={About}/>
       <Route exact path ="/portfolio" component={Portfolio}/>
       <Route exact path ="/contact" component={Contact}/>
-    </div>
+    {/* </div> */}
     </Router>
   );
 }

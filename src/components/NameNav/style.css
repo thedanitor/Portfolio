@@ -1,0 +1,56 @@
+a {
+    font-weight: bold;
+  }
+
+  .navbar {
+    background: rgba(0, 0, 0, 0.001) !important;
+  }
+
+  #danFont {
+    color: #2d882d;
+  }
+  
+  #danFont {
+    overflow: hidden;
+    border-right: 0.15em solid #2d882d;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: typing 1.5s steps(40, end), blink-caret 0.75s step-end 13,
+      blink-caret-disappear 1s linear 9750ms infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #2d882d;
+    }
+  }
+  @keyframes blink-caret-disappear {
+    from,
+    to {
+      border-color: transparent;
+    }
+    100% {
+      border-color: transparent;
+    }
+  }
+  
+  .navbar-brand {
+    font-family: "Press Start 2P", cursive;
+    padding: 0px 25px;
+    font-size: 40px;
+    font-weight: bold;
+  }
