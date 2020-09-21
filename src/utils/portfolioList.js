@@ -1,9 +1,11 @@
+import lernImg from "../assets/images/lern_4-3.png";
+import lernWide from "../assets/images/lern_wide.png";
 import aqirImg from "../assets/images/aqir_home_screen_4-3.png";
 import aqirWide from "../assets/images/aqir_home_screen_wide.png";
 import burgerImg from "../assets/images/burger_4-3.png";
 import burgerWide from "../assets/images/burger_wide.png";
-import dayPlannerImg from "../assets/images/dayPlanner_4-3.png";
-import dayPlannerWide from "../assets/images/dayPlanner_wide.png";
+// import dayPlannerImg from "../assets/images/dayPlanner_4-3.png";
+// import dayPlannerWide from "../assets/images/dayPlanner_wide.png";
 import employeeRosterImg from "../assets/images/employeeRoster_4-3.png";
 import employeeRosterWide from "../assets/images/employeeRoster_wide.png";
 import fearSettingImg from "../assets/images/fearSetting_4-3.png";
@@ -31,8 +33,8 @@ function ProjectData(
 
 const lernProject = new ProjectData(
   "LERN",
-  aqirImg,
-  aqirWide,
+  lernImg,
+  lernWide,
   "HTML / CSS / JavaScript / MongoDB / Node / Express / React / Material-UI",
   "LERN is an open source education platform for taking and teaching online courses.",
   "https://lern-demo.herokuapp.com/",
@@ -89,15 +91,15 @@ const weatherProject = new ProjectData(
   "https://github.com/thedanitor/Weather_Dashboard"
 );
 
-const dayPlannerProject = new ProjectData(
-  "Workday Scheduler App",
-  dayPlannerImg,
-  dayPlannerWide,
-  "HTML / CSS / JavaScript",
-  "Simple workday planner app. Save meetings to local storage.",
-  "https://thedanitor.github.io/Work_Day_Scheduler/",
-  "https://github.com/thedanitor/Work_Day_Scheduler"
-);
+// const dayPlannerProject = new ProjectData(
+//   "Workday Scheduler App",
+//   dayPlannerImg,
+//   dayPlannerWide,
+//   "HTML / CSS / JavaScript",
+//   "Simple workday planner app. Save meetings to local storage.",
+//   "https://thedanitor.github.io/Work_Day_Scheduler/",
+//   "https://github.com/thedanitor/Work_Day_Scheduler"
+// );
 
 let portfolioList = [
   lernProject,
@@ -106,7 +108,7 @@ let portfolioList = [
   employeeRosterProject,
   fearSetterProject,
   weatherProject,
-  dayPlannerProject,
+  // dayPlannerProject,
   
 ];
 
