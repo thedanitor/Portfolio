@@ -1,32 +1,32 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.63ed21db.chunk.css",
-    "main.js": "/portfolio/static/js/main.983f91cf.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.983f91cf.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.ad749f8a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ad749f8a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.af3c1da9.chunk.css": "/portfolio/static/css/2.af3c1da9.chunk.css",
     "static/js/2.439fb60e.chunk.js": "/portfolio/static/js/2.439fb60e.chunk.js",
     "static/js/2.439fb60e.chunk.js.map": "/portfolio/static/js/2.439fb60e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.8d37c5e5c28f46d7a87bccec6d2815cf.js": "/portfolio/precache-manifest.8d37c5e5c28f46d7a87bccec6d2815cf.js",
+    "precache-manifest.72d964815d8436164c6f5d2df3e95504.js": "/portfolio/precache-manifest.72d964815d8436164c6f5d2df3e95504.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/portfolio/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.63ed21db.chunk.css.map": "/portfolio/static/css/main.63ed21db.chunk.css.map",
     "static/js/2.439fb60e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.439fb60e.chunk.js.LICENSE.txt",
     "static/media/Dan_Clipper_rev.gif": "/portfolio/static/media/Dan_Clipper_rev.62923853.gif",
     "static/media/Dan_Clipper_twoFirst.gif": "/portfolio/static/media/Dan_Clipper_twoFirst.0f41465f.gif",
-    "static/media/Dan_Weikart_Resume_6-25-2020.pdf": "/portfolio/static/media/Dan_Weikart_Resume_6-25-2020.2a503349.pdf",
+    "static/media/Dan_Weikart_Resume_9-21-2020.pdf": "/portfolio/static/media/Dan_Weikart_Resume_9-21-2020.eb8e17f6.pdf",
     "static/media/aqir_home_screen_4-3.png": "/portfolio/static/media/aqir_home_screen_4-3.9317bab3.png",
     "static/media/aqir_home_screen_wide.png": "/portfolio/static/media/aqir_home_screen_wide.d958a863.png",
     "static/media/burger_4-3.png": "/portfolio/static/media/burger_4-3.1686837a.png",
     "static/media/burger_wide.png": "/portfolio/static/media/burger_wide.6c0680e1.png",
-    "static/media/dayPlanner_4-3.png": "/portfolio/static/media/dayPlanner_4-3.0bbfb40e.png",
-    "static/media/dayPlanner_wide.png": "/portfolio/static/media/dayPlanner_wide.81b07e56.png",
     "static/media/employeeRoster_4-3.png": "/portfolio/static/media/employeeRoster_4-3.1f264ccb.png",
     "static/media/employeeRoster_wide.png": "/portfolio/static/media/employeeRoster_wide.f7c8ce0b.png",
     "static/media/fearSetting_4-3.png": "/portfolio/static/media/fearSetting_4-3.12023361.png",
     "static/media/fearSetting_Home_wide.png": "/portfolio/static/media/fearSetting_Home_wide.0982d28e.png",
+    "static/media/lern_4-3.png": "/portfolio/static/media/lern_4-3.fad46e2f.png",
+    "static/media/lern_wide.png": "/portfolio/static/media/lern_wide.14373380.png",
     "static/media/weatherDashboard_4-3.png": "/portfolio/static/media/weatherDashboard_4-3.9c8ea007.png",
     "static/media/weatherDashboard_wide.png": "/portfolio/static/media/weatherDashboard_wide.61c0facf.png"
   },
@@ -35,6 +35,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.439fb60e.chunk.js",
     "static/css/main.63ed21db.chunk.css",
-    "static/js/main.983f91cf.chunk.js"
+    "static/js/main.ad749f8a.chunk.js"
   ]
 }

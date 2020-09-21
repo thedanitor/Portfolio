@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f7d2a94570c897020cda5e34e62f659",
+    "revision": "8616e6df729a1246b46bb1c4bd03d7d6",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "f65d8dcfe70619585957",
+    "revision": "5a19de885c83dd1a2661",
     "url": "/portfolio/static/css/main.63ed21db.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.439fb60e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f65d8dcfe70619585957",
-    "url": "/portfolio/static/js/main.983f91cf.chunk.js"
+    "revision": "5a19de885c83dd1a2661",
+    "url": "/portfolio/static/js/main.ad749f8a.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Dan_Clipper_twoFirst.0f41465f.gif"
   },
   {
-    "revision": "2a503349b198ac67b5b4953754997d35",
-    "url": "/portfolio/static/media/Dan_Weikart_Resume_6-25-2020.2a503349.pdf"
+    "revision": "eb8e17f698809faa43c65fd4edf31c70",
+    "url": "/portfolio/static/media/Dan_Weikart_Resume_9-21-2020.eb8e17f6.pdf"
   },
   {
     "revision": "9317bab3e3155efe361ad5c7f42fe83d",
@@ -56,14 +56,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/burger_wide.6c0680e1.png"
   },
   {
-    "revision": "0bbfb40ede0546c37b7ec476b972741d",
-    "url": "/portfolio/static/media/dayPlanner_4-3.0bbfb40e.png"
-  },
-  {
-    "revision": "81b07e5660f8575cc4ade15a0c658da1",
-    "url": "/portfolio/static/media/dayPlanner_wide.81b07e56.png"
-  },
-  {
     "revision": "1f264ccbf60104b9dad642ae71a953bd",
     "url": "/portfolio/static/media/employeeRoster_4-3.1f264ccb.png"
   },
@@ -78,6 +70,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0982d28e5ef605bb9960bc0d5acd66a6",
     "url": "/portfolio/static/media/fearSetting_Home_wide.0982d28e.png"
+  },
+  {
+    "revision": "fad46e2f92ef52480651ee98af5cfcca",
+    "url": "/portfolio/static/media/lern_4-3.fad46e2f.png"
+  },
+  {
+    "revision": "14373380df3808ead355a48bd83f8477",
+    "url": "/portfolio/static/media/lern_wide.14373380.png"
   },
   {
     "revision": "9c8ea007d69c2233d226ff77ac5f11fc",
