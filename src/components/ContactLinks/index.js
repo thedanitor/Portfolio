@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import resume from "../../assets/images/Dan_Weikart_Resume_6-25-2020.pdf";
+import resume from "../../assets/images/Dan_Weikart_Resume_9-21-2020.pdf";
 
 function ContactLinks() {
 
